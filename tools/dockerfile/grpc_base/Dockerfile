@@ -28,7 +28,7 @@
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 # Base Dockerfile for gRPC dev images
-FROM debian:latest
+FROM debian:11.5
 
 # Install Git.
 RUN apt-get update && apt-get install -y \
